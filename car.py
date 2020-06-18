@@ -25,7 +25,7 @@ class Car:
         # print(msg)
 
     def stop(self):
-        self.go(Car.Forward, 0, Car.Forward, 0)        
+        self.go(Car.Forward, 0, Car.Forward, 0)
 
     def go_forward(self, speed):
         self.go(Car.Forward, speed, Car.Forward, speed)
