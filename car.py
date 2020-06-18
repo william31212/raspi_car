@@ -39,6 +39,10 @@ class Car:
     def go_right(self, speed):
         self.go(Car.Forward, speed, Car.Backward, speed)
 
+if __name__ == "__main__":
+    car = Car('/dev/ttyACM0', 9600)
+    car.stop()
+
 # Example
 # car = Car('/dev/ttyACM0', 9600)
 
